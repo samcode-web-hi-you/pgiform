@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>PremGanga Institution </title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Verdana&display=swap">
+    <script src="https://kit.fontawesome.com/27336307f5.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <header>PremGanga Institution
+            <p>Bypass Road, Bharatpur-10, Chitwan</p>
+        </header>
+        <p class="note">Note:compulsorily Fill the box where <span style="color: red;">*</span> astrik sign is given,
+            others are
+            otionals</p>
+        <form action="" method="post">
+            <div class="formPersonnal" id="formFirst">
+                <div class="details personal">
+                    <h3>Personal Details</h3>
+                    <h5>Fullname</h5>
+                    <div class="fields">
+
+                        <!--First one-->
+                        <div class="input-field">
+                            <label for="">First name<span style="color: red;">*</span></label>
+                            <input type="text" placeholder="Enter your name" required>
+                        </div>
+                        <!--First one-->
+                        <div class="input-field">
+                            <label for="">Middle name</label>
+                            <input type="text" placeholder="Enter your name">
+                        </div>
+                        <!--First one-->
+                        <div class="input-field">
+                            <label for="">Last name<span style="color: red;">*</span></label>
+                            <input type="text" placeholder="Enter your name" required>
+                        </div>
+                    </div>
+
+                    <div class="fields">
+                        <!--First one-->
+                        <div class="input-field">
+                            <span class="title">Alternative name</span>
+                            <label for="">First name</label>
+                            <input type="text" placeholder="Enter your other name(if any)">
+                        </div>
+                        <!--First one-->
+                        <div class="input-field">
+                            <label for="">Middle name</label>
+                            <input type="text" placeholder="Enter your other name(if any)">
+                        </div>
+                        <!--First one-->
+                        <div class="input-field">
+                            <label for="">Last name</label>
+                            <input type="text" placeholder="Enter your other name(if any)">
+                        </div>
+                    </div>
+                    <h5>Address</h5>
+                    <div class="fields">
+                        <!--Perm add-->
+                        <div class="input-field">
+                            <span class="title">Permanent Address</span>
+                            <label for="">Tol/street</label>
+                            <input type="text" placeholder="Enter your temporary address">
+                        </div>
+                        <div class="input-field">
+                            <label for="">Ward no.<span style="color: red;">*</span></label>
+                            <input type="text" placeholder="Enter your name" required>
+                        </div>
+                        <div class="input-field">
+                            <label for="">Municipality<span style="color: red;">*</span></label>
+                            <input type="text" placeholder="Enter your name" required>
+                        </div>
+                        <div class="input-field">
+                            <label for="">District<span style="color: red;">*</span></label>
+                            <input type="text" placeholder="Enter your name" required>
+                        </div>
+                        <div class="input-field">
+                            <label for="">Province<span style="color: red;">*</span></label>
+                            <input type="text" placeholder="Enter your name" required>
+                        </div>
+                        <div class="input-field">
+                            <label for="">Country<span style="color: red;">*</span></label>
+                            <input type="text" placeholder="Enter your name" required>
+                        </div>
+
+                        <!--temp add-->
+                        <div class="input-field">
+                            <span class="title">Temporary Address</span>
+                            <label for="">Tol/street<span style="color: red;">*</span></label>
+                            <input type="text" placeholder="Enter your name" required>
+                        </div>
+                        <div class="input-field">
+                            <label for="">Ward no.<span style="color: red;">*</span></label>
+                            <input type="text" placeholder="Enter your name" required>
+                        </div>
+                        <div class="input-field">
+                            <label for="">Municipality<span style="color: red;">*</span></label>
+                            <input type="text" placeholder="Enter your name" required>
+                        </div>
+                        <div class="input-field">
+                            <label for="">District<span style="color: red;">*</span></label>
+                            <input type="text" placeholder="Enter your name" required>
+                        </div>
+                        <div class="input-field">
+                            <label for="">Province<span style="color: red;">*</span></label>
+                            <input type="text" placeholder="Enter your name" required>
+                        </div>
+                        <div class="input-field">
+                            <label for="">Country<span style="color: red;">*</span></label>
+                            <input type="text" placeholder="Enter your name" required>
+                        </div>
+                    </div>
+                    <label>same as above</label>
+                    <input type="radio">
+                    <h5>Other Details</h5>
+                    <div class="fields">
+                        <!--DOB one-->
+                        <div class="input-field">
+                            <label for="">Date of Birth (AD):<span style="color: red;">*</span></label>
+                            <input type="date" placeholder="Enter your birth date" required>
+                        </div>
+                        <!--gender one-->
+                        <div class="input-field">
+                            <label for="">Gender<span style="color: red;">*</span></label>
+                            <select name="gender" id="gender">
+                                <option value=""></option>
+                                <option value="gender">Male</option>
+                                <option value="gender">Female</option>
+                                <option value="gender">Other</option>
+                            </select>
+                        </div>
+                        <!--Marital one-->
+                        <div class="input-field">
+                            <label for="">Marital Status</label>
+                            <select name="maritalStatus" id="maritalStatus">
+                                <option value=""></option>
+                                <option value="maritalStatus">Unmarried</option>
+                                <option value="maritalStatus">Married</option>
+                                <option value="maritalStatus">Divorced</option>
+                                <option value="maritalStatus">Others</option>
+                            </select>
+                        </div>
+                        <!--Gmail one-->
+                        <div class="input-field">
+                            <label for="">Gmail<span style="color: red;">*</span></label>
+                            <input type="email" placeholder="Enter your gmail I'd" required>
+                        </div>
+                        <!--Number one-->
+                        <div class="input-field">
+                            <label for="">Phone Number<span style="color: red;">*</span></label>
+                            <input type="tel" placeholder="Enter your phone number" required>
+                        </div>
+                        <!--Alt number one-->
+                        <div class="input-field">
+                            <label for="">Alternative Number</label>
+                            <input type="text" placeholder="Enter your alternative number">
+                        </div>
+                    </div>
+                    <h5>Passport Details</h5>
+                    <div class="fields">
+                        <!--Passport one-->
+                        <div class="input-field">
+                            <label for="">Passport Number</label>
+                            <input type="email" placeholder="Enter your Passport number">
+                        </div>
+                        <div class="input-field">
+                            <label for="">Issued country</label>
+                            <input type="text" placeholder="Enter name of issued country" required>
+                        </div>
+                        <!--First one-->
+                        <div class="input-field">
+                            <label for="">Date Of issue</label>
+                            <input type="date" placeholder="Enter Date Of Started">
+                        </div>
+                        <!--First one-->
+                        <div class="input-field">
+                            <label for="">Date Of expiry</label>
+                            <input type="date" placeholder="Enter  Date Of Completion" required>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="details otherDetails">
+                    <h5>Application Details</h5>
+                    <div class="fields">
+                        <div class="input-field">
+                            <label for="">Country for application</label>
+                            <select name="CountryForapplication" id="CountryForapplication">
+                                <option></option>
+                                <option value="CountryForapplication">USA</option>
+                                <option value="CountryForapplication">Canada</option>
+                                <option value="CountryForapplication">Australia</option>
+                                <option value="CountryForapplication">New Zealand</option>
+                            </select>
+                        </div>
+                        <div class="input-field">
+                            <label for="">Application for</label>
+                            <select name="Forapplication" id="Forapplication">
+                                <option></option>
+                                <option value="Forapplication">CGFNS</option>
+                                <option value="Forapplication">Form 2F/3F</option>
+                                <option value="Forapplication">NNAS</option>
+                                <option value="Forapplication">AHPRA</option>
+                                <option value="Forapplication">NCN</option>
+                            </select>
+                        </div>
+                        <div class="input-field">
+                            <label for="">Board of nurshing(Only for USA)</label>
+                            <select name="Forapplication" id="Forapplication">
+                                <option></option>
+                                <option value="Forapplication">New York</option>
+                                <option value="Forapplication">Texas</option>
+                                <option value="Forapplication">Others</option>
+                            </select>
+                        </div>
+                        <!--First one-->
+                        <div class="input-field">
+                            <label for="">NNC Number</label>
+                            <input type="number" placeholder="Enter your NNC number">
+                        </div>
+                        <!--First one-->
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="formAcademic" id="#formSecond">
+                <h3>Academic Details</h3>
+                <div class="details Primarylevel">
+                    <h5>General Education</h5>
+                    <span class="title">Primary level(1-8)]</span>
+                    <div class="fields">
+                        <!--First one-->
+                        <div class="input-field">
+                            <label for="">School Name <span style="color: red;">*</span></label>
+                            <input type="text" placeholder="Enter your school Name" required>
+                        </div>
+                        <!--First one-->
+                        <div class="input-field">
+                            <label for="">Permanent Address<span style="color: red;">*</span></label>
+                            <input type="text" placeholder="Enter Permanent Address" required>
+                        </div>
+                        <!--First one-->
+                        <div class="input-field">
+                            <label for="">Date Of Started</label>
+                            <input type="month" placeholder="Enter Date Of Started">
+                        </div>
+                        <!--First one-->
+                        <div class="input-field">
+                            <label for="">Date Of Completion</label>
+                            <input type="mpnth" placeholder="Enter  Date Of Completion" required>
+                        </div>
+                        <div class="details SecondaryLevel">
+                            <span class="title">Secondary level(9-10)]</span>
+                            <div class="fields">
+                                <!--First one-->
+                                <div class="input-field">
+                                    <label for="">School Name <span style="color: red;">*</span></label>
+                                    <input type="text" placeholder="Enter your school Name" required>
+                                </div>
+                                <!--First one-->
+                                <div class="input-field">
+                                    <label for="">Permanent Address<span style="color: red;">*</span></label>
+                                    <input type="text" placeholder="Enter Permanent Address" required>
+                                </div>
+                                <!--First one-->
+                                <div class="input-field">
+                                    <label for="">Date Of Started</label>
+                                    <input type="month" placeholder="Enter Date Of Started">
+                                </div>
+                                <!--First one-->
+                                <div class="input-field">
+                                    <label for="">Date Of Completion</label>
+                                    <input type="month" placeholder="Enter  Date Of Completion" required>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="details HigherLevel">
+                            <span class="title">Higher level (+2)]</span>
+                            <div class="fields">
+                                <!--First one-->
+                                <div class="input-field">
+                                    <label for="">School Name <span style="color: red;">*</span></label>
+                                    <input type="text" placeholder="Enter your  school Name" required>
+                                </div>
+                                <!--First one-->
+                                <div class="input-field">
+                                    <label for="">Permanent Address<span style="color: red;">*</span></label>
+                                    <input type="text" placeholder="Enter Permanent Address" required>
+                                </div>
+                                <!--First one-->
+                                <div class="input-field">
+                                    <label for="">Date Of Started</label>
+                                    <input type="month" placeholder="Enter Date Of Started">
+                                </div>
+                                <!--First one-->
+                                <div class="input-field">
+                                    <label for="">Date Of Completion</label>
+                                    <input type="month" placeholder="Enter  Date Of Completion" required>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="formNursingEducation" id="#formThird">
+                <h5>Nurshing Education</h5>
+                <div class="details PCL">
+
+                    <span class="title">PCL</span>
+                    <div class="fields">
+                        <!--First one-->
+                        <div class="input-field">
+                            <label for="">School Name </label>
+                            <input type="text" placeholder="Enter your school Name">
+                        </div>
+                        <!--First one-->
+                        <div class="input-field">
+                            <label for="">Permanent Address</label>
+                            <input type="text" placeholder="Enter Permanent Address">
+                        </div>
+                        <!--First one-->
+                        <div class="input-field">
+                            <label for="">Date Of Started</label>
+                            <input type="date" placeholder="Enter Date Of Started">
+                        </div>
+                        <!--First one-->
+                        <div class="input-field">
+                            <label for="">Date Of Completion</label>
+                            <input type="date" placeholder="Enter  Date Of Completion" required>
+                        </div>
+                        <div class="details BN/BSC">
+                            <span class="title">BN/BSC</span>
+                            <div class="fields">
+                                <!--First one-->
+                                <div class="input-field">
+                                    <label for="">School Name </label>
+                                    <input type="text" placeholder="Enter your school Name">
+                                </div>
+                                <!--First one-->
+                                <div class="input-field">
+                                    <label for="">Permanent Address</label>
+                                    <input type="text" placeholder="Enter Permanent Address">
+                                </div>
+                                <!--First one-->
+                                <div class="input-field">
+                                    <label for="">Date Of Started</label>
+                                    <input type="date" placeholder="Enter Date Of Started">
+                                </div>
+                                <!--First one-->
+                                <div class="input-field">
+                                    <label for="">Date Of Completion</label>
+                                    <input type="date" placeholder="Enter  Date Of Completion">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formNursingLicensure" id="#formFourth">
+                <h3>Nurshing Licensure</h3>
+                <div class="details Licensure">
+                    <div class="fields">
+                        <!--First one-->
+                        <div class="input-field">
+                            <label for="">NNC Regd No.</label>
+                            <input type="text" placeholder="Enter your NNC registration number">
+                        </div>
+                        <!--First one-->
+                        <div class="input-field">
+                            <label for="">NNC Exam Date</label>
+                            <input type="dtae" placeholder="Enter NNC exam date">
+                        </div>
+                        <!--First one-->
+                        <div class="input-field">
+                            <label for="">Registration Date</label>
+                            <input type="date" placeholder="Enter Date Of registration">
+                        </div>
+                        <!--First one-->
+                        <div class="input-field">
+                            <label for="">Expiry Date</label>
+                            <input type="date" placeholder="Enter Expiry Date">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-container">
+                    <label for="exam" class="form-label">Did you take multiple attempts to pass the license
+                        exam?</label>
+
+                    <label for="exam_yes" class="form-label">Yes <input type="radio" id="exam_yes" name="exam"
+                            class="radio-input"></label>
+
+                    <label for="exam_no" class="form-label">No <input type="radio" id="exam_no" name="exam"
+                            class="radio-input"></label>
+
+                    <label for="noOfAttempts" class="form-label">How many attempts?
+                        <input type="number" id="noOfAttempts" name="noOfAttempts" class="number-input"></label>
+                </div>
+            </div>
+            <div class="formJobQualification" id="#formFifth">
+                <h3>Job Qualification</h3>
+                <div class="details PCL">
+                    <div class="fields">
+                        <!--First one-->
+                        <div class="input-field">
+                            <label for="">Job Title</label>
+                            <input type="text" placeholder="Enter job title">
+                        </div>
+                        <div class="input-field">
+                            <label for="">Hospital Name</label>
+                            <input type="text" placeholder="Enter hospital name">
+                        </div>
+                        <!--First one-->
+                        <div class="input-field">
+                            <label for="">Permanent Address</label>
+                            <input type="text" placeholder="Enter Permanent Address">
+                        </div>
+                        <div class="input-field">
+                            <label for="">Supervisor name</label>
+                            <input type="text" placeholder="Enter supervisior name">
+                        </div>
+                        <div class="input-field">
+                            <label for="">Supervisor Position</label>
+                            <input type="text" placeholder="Enter supervisior position">
+                        </div>
+                        <!--First one-->
+                        <div class="input-field">
+                            <label for="">Date Of Started</label>
+                            <input type="month" placeholder="Enter Date Of Started">
+                        </div>
+                        <!--First one-->
+                        <div class="input-field">
+                            <label for="">Date Of Completion</label>
+                            <input type="month" placeholder="Enter  Date Of Completion" required>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="formLanguageTest" id="#formSixth">
+                <h3>English Language Test</h3>
+                <div class="details PCL">
+
+                    <div class="fields">
+
+                        <!--First one-->
+                        <div class="input-field">
+                            <label for="">Test</label>
+                            <input type="text" placeholder="Enter your Test Name">
+                        </div>
+                        <!--First one-->
+                        <div class="input-field">
+                            <label for="">Exam Date</label>
+                            <input type="date" placeholder="Enter Date Of Started">
+                        </div>
+                        <div class="input-field">
+                            <label for="">Marks</label>
+                            <input type="text" placeholder="Enter your school Name">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="formFamilyDetails" id="#formSeventh">
+                <h3>Parent's Details</h3>
+                <div class="details Guardian">
+                    <div class="fields">
+                        <!--First one-->
+                        <div class="input-field">
+                            <label for="">Guardian Name<span style="color: red;">*</span></label>
+                            <input type="text" placeholder="Enter your Guardian Name" required>
+                        </div>
+                        <div class="input-field">
+                            <label for="">Relation<span style="color: red;">*</span></label>
+                            <input type="text" placeholder="Enter Relation" required>
+                        </div>
+                        <!--First one-->
+                        <div class="input-field">
+                            <label for="">Address</label>
+                            <input type="text" placeholder="Enter Address">
+                        </div>
+                        <div class="input-field">
+                            <label for="">Contact no.<span style="color: red;">*</span></label>
+                            <input type="text" placeholder="Enter Contact number" required>
+                        </div>
+                        <div class="input-field">
+                            <label for="">Occupation</label>
+                            <input type="text" placeholder="Enter Occupation">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formDocumentsSubmition" id="#formEigth">
+                <h3>Documents to be submitted:</h3>
+                <div class="fields">
+                    <form id="uploadForm" enctype="multipart/form-data">
+                        <div>
+                            <label for="photo"><strong>1) </strong> Digital Photo</label>
+                            <input type="file" id="photoInput" accept="image/*, .pdf" name="photo">
+                        </div>
+                        <div>
+                            <label for="experience"><strong>2) </strong> Experience letters</label>
+                            <input type="file" id="experience" accept="image/*, .pdf" name="experience">
+                        </div>
+                        <div>
+                            <label for="passportFront"><strong>3) </strong> Passport front</label>
+                            <input type="file" id="passportFront" accept="image/*, .pdf" name="passportFront">
+                        </div>
+                        <div>
+                            <label for="passportBack"><strong>4) </strong> Passport back</label>
+                            <input type="file" id="passportBack" accept="image/*, .pdf" name="passportBack">
+                        </div>
+                        <div>
+                            <label for="SLCMarkandCharacter"><strong>5) </strong> SLC Markseet and Charater</label>
+                            <input type="file" id="SLCMarkandCharacter" accept="image/*, .pdf"
+                                name="SLCMarkandCharacter">
+                        </div>
+                        <div>
+                            <label for="NNCRegd"><strong>6) </strong> NNC Registration (Both side in single paper):2
+                                copies</label>
+                            <input type="file" id="NNCRegd" accept="image/*, .pdf" name="NNCRegd">
+                        </div>
+                        <div>
+                            <label for="PCLMarkandCharacter"><strong>7) </strong> PCL+2 Marksheet and Character</label>
+                            <input type="file" id="PCLMarkandCharacter" accept="image/*, .pdf"
+                                name="PCLMarkandCharacter">
+                        </div>
+                        <div>
+                            <label for="BachelorMarkandCharacter"><strong>8) </strong> Bachelor transcript and
+                                character</label>
+                            <input type="file" id="BachelorMarkandCharacter" accept="image/*, .pdf"
+                                name="BachelorMarkandCharacter">
+                        </div>
+                        <div>
+                            <label for="otherDoc"><strong>9) </strong> other Documents</label>
+                            <input type="file" id="otherDoc" accept="image/*, .pdf" name="otherDoc">
+                        </div>
+                    </form>
+                </div>
+                <div class="fields">
+                    <div class="input-field">
+                        <label>How did you know about Premganga Institute(PGI)</label>
+                        <select name="" id="">
+                            <option value="">Family</option>
+                            <option value="">Friends</option>
+                            <option value="">Social Media</option>
+                            <option value="">News</option>
+                            <option value="">Others</option>
+                        </select>
+                    </div>
+                    <div class="input-field">
+                        <label>Referred by</label>
+                        <input type="text" />
+                    </div>
+                </div>
+                <div>
+                    <label for="otherDoc"><strong>Student signature</strong></label>
+                    <input type="file" id="otherDoc" accept="image/*, .pdf" name="otherDoc">
+                </div>
+                <p><i>I hereby declare that the above information is valid</i></p>
+                <div class="btn"><button type="submit" class="styled-button">Submit</button></div>
+            </div>
+
+    </div>
+    </div>
+    </div>
+    </form>
+    </div>
+
+</body>
+
+</html>
